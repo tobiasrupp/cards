@@ -1,0 +1,7 @@
+LOG:  database system was shut down at 2014-09-06 20:19:39 BST
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  database "cards_development" does not exist
+FATAL:  database "cards_development" does not exist
+FATAL:  database "cards_development" does not exist
+FATAL:  database "cards_development" does not exist
