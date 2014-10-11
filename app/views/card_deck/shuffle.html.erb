@@ -1,0 +1,23 @@
+<% provide(:title, 'Card Deck') %>
+
+<div class="container">
+  <h1>Shuffle The Cards</h1>
+  <div class="row">
+    <div class="col-md-5">
+      <%= link_to "Shuffle", :shuffle, class: "btn btn-success btn-lg", role: "button" %>
+    </div>
+    <div class="col-md-7"></div>
+  </div><!-- /.row -->
+  <div class="row">
+    <div class="col-md-12">
+      <ul id="cards">
+        <% @cards.each do |c| %>
+          <li>
+            <%= image_tag "#{c}.png", class: "thumbnail" %>
+            <%= c %>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  </div><!-- /.row -->
+</div><!-- /.container -->

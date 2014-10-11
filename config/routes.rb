@@ -1,4 +1,8 @@
 Cards::Application.routes.draw do
+
+  root "card_deck#index"
+  get "shuffle" => "card_deck#shuffle", as: 'shuffle'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

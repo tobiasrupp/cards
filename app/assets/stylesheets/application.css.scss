@@ -1,0 +1,15 @@
+@import "bootstrap";
+@import "bootstrap/theme";
+
+ul#cards {  
+  list-style: none;
+  padding-left: 0em;
+  li {
+    float: left;
+    min-width: 110px;
+    margin-top: 1em;
+    img{
+      margin-bottom: 0px;
+    }
+  }
+}
